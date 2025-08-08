@@ -379,11 +379,13 @@ article .icon {
 /* CONTACT */
 
 #contact {
-  max-width: 500px;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 20px 20px;
   border:1px rgb(181, 181, 181) solid;
   border-radius: 3rem;
+   box-shadow: 0 4px 20px rgb(53, 53, 
+   53); 
 }
 
 #contact h2 {
@@ -394,6 +396,7 @@ article .icon {
 #contact form {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 #contact label {
@@ -411,10 +414,10 @@ article .icon {
 
 #contact button {
   margin-top: 20px;
-  padding: 12px;
+  padding: 0.75rem;
   background-color:white ;
   color:black;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px rgb(85, 85, 85) solid;
   border-radius:2rem;
   cursor: pointer;
